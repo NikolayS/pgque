@@ -154,8 +154,7 @@ pgque/
 ## Agentic Engineering Rules
 
 - Use red/green TDD for new code: write the failing test first, then the implementation.
-- Delegate collection and legwork to the cheapest capable agent tier (Haiku
-  for mechanical fetch/check tasks, Sonnet for structured research sweeps);
+- Delegate collection and legwork to the cheapest capable agent tier;
   reserve top-tier models for adversarial verification and synthesis.
 - Keep changes surgical: one logical fix or feature per PR.
 - Preserve PgQ core behavior unless the change is intentional, documented, and tested.
